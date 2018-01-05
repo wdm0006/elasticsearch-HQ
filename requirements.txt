@@ -1,12 +1,20 @@
+# utils
 jmespath==0.9.3
+elasticsearch2
+elasticsearch5
+elasticsearch
 
 # Cache
-dogpile.cache == 0.6.3
+dogpile.cache==0.6.3
 
 # Flask
 Flask==0.12.2
 Flask-restful==0.3.6
+Flask-Bcrypt==0.7.1
 
-elasticsearch2
-elasticsearch5
-elasticsearch
+# Database
+Flask-SQLAlchemy==2.3.1
+SQLAlchemy==1.2.0
+
+# Migrations
+Flask-Migrate==2.1.1
